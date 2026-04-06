@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Megha() {
+function Mona() {
   return (
     <div>
-      Megha
+      Mona
     </div>
   )
 }
 
-export default Megha
+export default Mona
