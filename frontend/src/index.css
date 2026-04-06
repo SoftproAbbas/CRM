@@ -1,0 +1,35 @@
+.timeline {
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-left {
+  position: relative;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-left .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-left .line {
+  width: 2px;
+  flex-grow: 1;
+  background-color: #ccc;
+  margin-top: 2px;
+}
+
+.timeline-content {
+  border-radius: 12px;
+  background: #f9f9f9;
+}

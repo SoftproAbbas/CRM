@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: 'Poppins', system-ui,-apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    background: linear-gradient(135deg, #fff9f5 0%, #fff5f0 50%, #fff0e6 100%);         
+}
+.nav-deg{
+   background: linear-gradient(135deg, #ff6a00 0%, #ff8c3a 50%, #ffb86b 100%);
+    border-radius: 0px 0px 20px 20px ;
+}
+
+.spi-img{
+    border-radius:100%;
+     border:1px dotted white;
+    padding:5px;
+}
+.text-nav{
+    color: white;
+   font-weight: 800;
+    font-size: 20px;
+    letter-spacing: -0.02em
+}
+.nav-text{
+    font-weight:400;
+    font-size:16px;
+    border:2px dotted white;
+    color: white;
+}
+.padd{
+    padding-top: 32px;
+    padding-bottom:32px;
+}
+.form-deg{
+    background: white;  
+    border-radius: 25px;
+    border-top:4px solid orange;
+}
+.add{
+    border: 2px dotted #ff6a00;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.add:hover{
+    background: rgba(255, 255, 255, 0.8);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+}
+.stu
+{
+    background-color: #ffede0;
+    color:#ff6d04;
+    border-radius:18px;
+    margin-left:0;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(255, 106, 0, 0.08);
+}
+.login-footer
+{
+    background-color: #fff6ef;
+    color:#ff6d04;
+    border-radius:14px;
+    margin-left:0;
+    font-weight: 500;
+    /* box-shadow: 0 4px 12px rgba(255, 106, 0, 0.08); */
+    text-align: center;
+}
+.sub-btn{
+     background: linear-gradient(135deg, #ff6a00 0%, #ff8c3a 50%, #ffb86b 100%);
+     color: white;
+     height: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    box-shadow: 0 15px 40px rgba(255, 106, 0, 0.2);
+    transition: all 0.3s ease;
+}
+.sub-btn:hover{
+        transform: translateY(-3px);
+    box-shadow: 0 20px 45px rgba(255, 106, 0, 0.3);
+}
+
+
+.sign-btn{
+     background: linear-gradient(135deg, #ff6a00 0%, #ff8c3a 50%, #ffb86b 100%);
+     color: white;
+     height: 50px;
+    border: none;
+    border-radius:15px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    /* box-shadow: 0 15px 40px rgba(255, 106, 0, 0.2); */
+    transition: all 0.3s ease;
+}
+.sign-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 20px 45px rgba(255, 106, 0, 0.3);
+}
+
+.input-box,
+.custom-select-box{
+  position: relative;
+  width: 100%;
+  /* margin: px 0; */
+}
+
+
+.input-box input,
+.custom-select-box select{
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border: 1px dotted #f3a64a;
+  /* border-radius: 5px; */
+  font-size: 16px;
+  background: white;
+  appearance: none;
+  box-shadow:  0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+.input-box i,
+.custom-select-box i{
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 18px;
+}
+
+input:focus,
+select:focus{
+  outline: none;
+}
+
+.footer{
+  
+    font-size:16px;
+    font-weight:600;
+    color: #686868;
+}
+
+@media screen and (max-width: 600px) {
+        .mq-2{
+            margin-left: 0px !important;
+            order: 1 !important;
+        }
+    .mq-1{
+        order: 2 !important;
+    }
+    .mq-card{
+        margin-left: 0px !important;
+    }
+    .mq-padd{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .mq-text{
+        font-weight:700;
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+    .mq-logo{
+        margin-left:0px !important;
+        margin-top: 13px;
+    }
+    .mq-logo-text{
+        margin-left:40px !important;
+    }
+    .mq-login{
+    display: flex !important;
+       justify-content: center !important;
+       align-items: center !important;
+    }
+    .mq-pad{
+        padding-top: 0px !important;
+        padding-bottom: 20px !important;
+    }
+
+   
+}
+
+
+
+/* login start */
+.spi-img-login{
+
+
+    border-radius:100%;
+    border:3px solid #ff6d04 ;
+    padding:5px;
+    align-items: center;
+}
+.login-deg{
+    background: white;  
+    border-radius: 25px;
+    border-top:4px solid orange;
+    
+}
+
+
+
+/* table css */
+table td  {
+  border-left: 1px solid rgb(200, 192, 192);
+  border-right: 1px solid rgb(200, 192, 192);
+  border-top: none !important;
+  border-bottom: none !important;
+
+}
+table th {
+  border-left: 1px solid rgb(200, 192, 192);
+  border-right: 1px solid rgb(200, 192, 192);
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+/* .t-btn{
+    
+} */

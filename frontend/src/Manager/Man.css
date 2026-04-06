@@ -1,0 +1,16 @@
+.col{
+   background: #f8f8f8;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+input[type="range"] {
+  accent-color: rgb(53, 220, 53); /* Example: changes the color to red */
+  width: 200px;
+  border: none;
+  height: 0.4rem;
+     background: red;
+}

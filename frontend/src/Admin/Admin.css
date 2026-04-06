@@ -1,0 +1,43 @@
+.timeline-card {
+  border-radius: 15px;
+  border: 1px solid #e5e5e5;
+  background: #f9f9f9;
+  transition: 0.2s ease;
+}
+
+.timeline-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Badge styling (rounded like screenshot) */
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.custom-table {
+  border-collapse: collapse;
+}
+
+.custom-table thead th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  padding: 12px;
+  border: 1px solid #dee2e6;
+}
+
+.custom-table td {
+  padding: 12px;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+  color: #2c3e50;
+}
+
+.custom-table tr {
+  background: #f8f9fa;
+}
+
+.custom-table tr + tr {
+  border-top: 2px solid #dee2e6;
+}
